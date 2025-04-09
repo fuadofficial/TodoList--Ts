@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# 📝 TypeScript Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![Image](https://github.com/user-attachments/assets/e9d0be47-1ac5-442c-8cf3-6cf1b9a94924)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+
+
+
+
+
+This is a simple and clean **Todo List** application built with **React (Vite)**, **TypeScript**, and **Tailwind CSS**. It allows users to add, complete, and remove tasks with a responsive and modern UI.
+
+## 🚀 Features
+- Add and delete tasks
+- Mark tasks as completed
+- Real-time UI updates
+- Clean and minimal design using Tailwind CSS
+- Type-safe components with TypeScript
+- Fully responsive design
+
+## 🛠️ Tech Stack
+- React + Vite
+- TypeScript
+- Tailwind CSS
+
+## 📸 Screenshots
+(Add screenshots if you have any!)
+
+## 📂 Getting Started
+
+```bash
+git clone https://github.com/your-username/todo-typescript.git
+cd reactejs-ts
+npm install
+npm run dev
