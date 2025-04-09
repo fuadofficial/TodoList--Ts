@@ -36,7 +36,7 @@ This is a simple and clean **Todo List** application built with **React (Vite)**
 ## 📂 Getting Started
 
 ```bash
-git clone https://github.com/your-username/todo-typescript.git
+git clone [https://github.com/your-username/todo-typescript.git](https://github.com/fuadofficial/TodoList--Ts.git)
 cd reactejs-ts
 npm install
 npm run dev
